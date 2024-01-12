@@ -2,7 +2,6 @@ import torch
 import torch.nn as nn
 import math
 
-
 class InstanceLoss(nn.Module):
     def __init__(self, batch_size, temperature, device):
         super(InstanceLoss, self).__init__()
