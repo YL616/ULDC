@@ -10,7 +10,6 @@ This is the source code of "Uncertainty-based Learning for Deep Clustering"
 Our AUL model comprises three components: 1) Uncertainty-aware Matching Filtration that leverages Subjective Logic that can effectively mitigate the disturbance of unreliable matching pairs and select high-confidence cross-modal matches for training; 2) Uncertainty-based Alignment Refinement, which not only simulates coarse-grained alignments by constructing uncertainty representations, but also performs progressive learning to incorporate coarse- and fine-grained alignments properly; 3) Cross-modal Masked Modeling that aims at exploring more comprehensive relations between vision and language.
 ![CMAP](figs/fig1.png)
 
-
 ## Proposed Model (AUL)
 * Projection Uncertainty Modeling
 * Deep Uncertainty-based Learning
