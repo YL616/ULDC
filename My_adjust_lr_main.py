@@ -29,8 +29,6 @@ def main():
     torch.cuda.manual_seed(args.seed)
     np.random.seed(args.seed)
 
-    # prepare data---------------------------------------------------------------------------------------------------------------------------------------------------
-    #train data
     train_dataset = torchvision.datasets.CIFAR10(
             root=args.dataset_dir,
             download=True,
