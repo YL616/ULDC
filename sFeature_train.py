@@ -4,7 +4,7 @@ from modules import transform, resnet, network, contrastive_loss,my_evidence_los
 from torch.nn.functional import normalize
 import os
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "1";
+#os.environ["CUDA_VISIBLE_DEVICES"] = "1";
 
 def train_net(net, data_loader, optimizer, batch_size, zeta):
     net.train()
