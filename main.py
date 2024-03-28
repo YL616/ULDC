@@ -16,6 +16,7 @@ import train_layerResNet
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "1";
 
+
 def main():
     parser = argparse.ArgumentParser()
     config = yaml_config_hook.yaml_config_hook("config/config.yaml") #read from config.yaml
